@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/* css reset */
+
+img{
+    width: 100px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+#menu, li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#menu, li, a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+#home{
+    background-color: rgb(151, 151, 230);
+}
+#about{
+    background-color: rgb(76, 227, 11);
+}
+#product{
+    background-color: rgb(190, 35, 35);
+}
+#pricing{
+    background-color: rgb(106, 92, 92);
+}
+#contact{
+    background-color: rgb(230, 134, 166);
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+
